@@ -1,0 +1,41 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.upper {
+  background-color: pink;
+  padding: 2vmin;
+  text-align: center;
+}
+
+.upper h1 {
+  color: palevioletred;
+  cursor: pointer;
+}
+
+.blogs {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.blog {
+  border: 2px solid #ff007f;
+  margin: 10px auto; /* Уменьшили отступы */
+  padding: 60px; /* Уменьшили внутренний отступ */
+  width: 200px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://img.freepik.com/free-photo/digital-illustration-of-a-simple-pink-heart_181624-33133.jpg?w=740&t=st=1703170147~exp=1703170747~hmac=121257c0c7751e2c7c1100bf0e3b6fde96c9a84c6746a4836d3fd91d0ea576e0"); /* Замените на ваше изображение сердца */
+  background-size: cover;
+}
+
+.blog h1 {
+  font-size: 19px;
+}
+
+.blog p {
+  font-size: 17px; /* Уменьшили размер шрифта */
+}
